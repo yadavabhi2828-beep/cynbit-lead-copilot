@@ -59,7 +59,7 @@ with tab_single:
                      "timeline": ex.timeline_text, "urgency": ex.urgency.value, "language": ex.language,
                      "requirements": ex.requirements})
             st.subheader("Why this score")
-            st.dataframe(pd.DataFrame([c.model_dump() for c in sc.components]), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame([c.model_dump() for c in sc.components]), hide_index=True, width="stretch")
             for n in sc.notes:
                 st.warning(n)
         with right:
@@ -79,7 +79,7 @@ with tab_single:
             else:
                 st.write("No reply drafted - this message is not a sales prospect.")
         with st.expander("Pipeline trace"):
-            st.dataframe(pd.DataFrame([t.model_dump() for t in res.trace]), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame([t.model_dump() for t in res.trace]), hide_index=True, width="stretch")
 
 with tab_batch:
     st.write("Triage every sample lead and rank the sales queue by score.")
@@ -90,4 +90,4 @@ with tab_batch:
             rows.append({"id": s["id"], "who": s["lead"]["company"] or s["lead"]["name"], "tier": r.score.tier.value,
                          "score": r.score.score, "intent": r.extraction.intent.value,
                          "service": r.extraction.service_line.value, "route": r.score.route.value})
-        st.dataframe(pd.DataFrame(rows).sort_values("score", ascending=False), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(rows).sort_values("score", ascending=False), hide_index=True, width="stretch")
