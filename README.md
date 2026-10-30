@@ -2,6 +2,8 @@
 
 > AI/ML Engineer Intern assessment - *Identify an AI Opportunity for Cynbit* · Abhishek Yadav
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yadavabhi2828-beep/cynbit-lead-copilot/blob/main/demo.ipynb)
+
 An AI copilot that turns an inbound enquiry into a **qualified, routed, evidence-grounded first response** in seconds, with a human approving every message.
 
 ```
@@ -15,6 +17,7 @@ Lead → Extract → Score → Retrieve → Draft → Human review → CRM / rep
 |---|---|
 | AI Opportunity Report | [`docs/01_AI_Opportunity_Report.md`](docs/01_AI_Opportunity_Report.md) |
 | AI/ML Proof of Concept | this repo - `app.py` (Streamlit), `api.py` (FastAPI), `copilot/` (library) |
+| Interactive Demo (Colab) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yadavabhi2828-beep/cynbit-lead-copilot/blob/main/demo.ipynb) · [`demo.ipynb`](demo.ipynb) |
 | Technical Approach Report | [`docs/02_Technical_Approach_Report.md`](docs/02_Technical_Approach_Report.md), [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) |
 
 ## Why this opportunity
