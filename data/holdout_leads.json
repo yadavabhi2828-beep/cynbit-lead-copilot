@@ -1,0 +1,162 @@
+[
+ {
+  "id": "H01",
+  "lead": {
+   "name": "Suresh Nair",
+   "company": "ShopWave",
+   "email": "suresh@shopwave.in",
+   "message": "Our app crashes whenever traffic spikes during sales. Need someone to fix scaling on our servers. Happy to pay ₹2,50,000 if done in 3 weeks."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "HOT",
+   "service_line": "cloud_infrastructure",
+   "relevant_docs": [
+    "svc-cloud"
+   ]
+  }
+ },
+ {
+  "id": "H02",
+  "lead": {
+   "name": "Hetal Patel",
+   "company": "Patel Logistics",
+   "email": "hetal@patellogistics.com",
+   "message": "Can you automate our invoice processing? We receive about 500 PDFs a month. Interested in knowing the cost."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "WARM",
+   "service_line": "ai_automation",
+   "relevant_docs": [
+    "svc-llm-automation"
+   ]
+  }
+ },
+ {
+  "id": "H03",
+  "lead": {
+   "name": "Isha",
+   "company": "",
+   "email": "isha.c@gmail.com",
+   "message": "I am a student, can I do a project with your team as part of my college requirement? Also is there any course available?"
+  },
+  "expected": {
+   "intent": "training",
+   "tier": "COLD",
+   "service_line": "training_bitelevate",
+   "relevant_docs": []
+  }
+ },
+ {
+  "id": "H04",
+  "lead": {
+   "name": "Kabir Anand",
+   "company": "BlogNest",
+   "email": "kabir@blognest.io",
+   "message": "We built a CRM in-house and want your SEO team to audit our blog. Also exploring AI chatbots later. Budget 1.5 lakh."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "WARM",
+   "service_line": "digital_marketing_seo",
+   "relevant_docs": [
+    "svc-seo"
+   ]
+  }
+ },
+ {
+  "id": "H05",
+  "lead": {
+   "name": "Pooja",
+   "company": "DevBench",
+   "email": "pooja@devbench.co",
+   "message": "Hello, we provide dedicated Python developers at $10/hour. Do you need any resources for your projects?"
+  },
+  "expected": {
+   "intent": "vendor_solicitation",
+   "tier": "NOT_A_PROSPECT",
+   "service_line": "unknown",
+   "relevant_docs": []
+  }
+ },
+ {
+  "id": "H06",
+  "lead": {
+   "name": "Manish Gupta",
+   "company": "IronFit Gyms",
+   "email": "manish@ironfit.in",
+   "message": "We have a gym chain with 8 branches and want customer reviews monitored across Google. Please send pricing."
+  },
+  "expected": {
+   "intent": "product_demo",
+   "tier": "WARM",
+   "service_line": "proprietary_product",
+   "relevant_docs": [
+    "prod-revio"
+   ]
+  }
+ },
+ {
+  "id": "H07",
+  "lead": {
+   "name": "Lakshmi",
+   "company": "",
+   "email": "lakshmi.r@gmail.com",
+   "message": "Looking for a cheap freelancer to make a wordpress site for my boutique."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "COLD",
+   "service_line": "software_development",
+   "relevant_docs": []
+  }
+ },
+ {
+  "id": "H08",
+  "lead": {
+   "name": "Arjun Rao",
+   "company": "PayQuick",
+   "email": "arjun@payquick.in",
+   "message": "Urgent: our payment gateway integration is failing in production. Need help today, budget not an issue."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "HOT",
+   "service_line": "software_development",
+   "relevant_docs": []
+  }
+ },
+ {
+  "id": "H09",
+  "lead": {
+   "name": "Imran",
+   "company": "Quick Delivery",
+   "email": "imran@quickdelivery.in",
+   "message": "Humein ek mobile app banwana hai delivery business ke liye, budget 3 lakh tak."
+  },
+  "expected": {
+   "intent": "new_project",
+   "tier": "WARM",
+   "service_line": "software_development",
+   "relevant_docs": [
+    "svc-fullstack"
+   ]
+  }
+ },
+ {
+  "id": "H10",
+  "lead": {
+   "name": "Procurement Desk",
+   "company": "Alpha Corp",
+   "email": "proc@alphacorp.com",
+   "message": "Please provide your company profile and catalog for our procurement database."
+  },
+  "expected": {
+   "intent": "unclear",
+   "tier": "COLD",
+   "service_line": "unknown",
+   "relevant_docs": []
+  }
+ }
+]
