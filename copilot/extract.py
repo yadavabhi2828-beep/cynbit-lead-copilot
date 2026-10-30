@@ -175,8 +175,8 @@ def extract_rules(lead: Lead, settings: Settings) -> Extraction:
         intent = Intent.TRAINING
     elif named_product or len(svc_hits[ServiceLine.PRODUCT]) >= 2:
         intent = Intent.PRODUCT_DEMO
-    elif n_service >= 1 or n_request >= 1:
-        intent = Intent.NEW_PROJECT if (n_service >= 1 or n_request >= 1) and n_service >= 1 else Intent.UNCLEAR
+    elif n_service >= 1:
+        intent = Intent.NEW_PROJECT
     else:
         intent = Intent.UNCLEAR
 
